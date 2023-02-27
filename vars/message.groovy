@@ -1,3 +1,3 @@
-def call() {
+def callTest() {
   echo "Welcome to Shared Libraries"
 }
