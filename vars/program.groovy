@@ -1,5 +1,5 @@
 def call() {
- sh 'cd /tmp/library ; javac Welcome.java ; java Welcome'
+ sh '/tmp/library/test.sh'
  sh 'pwd'
  sh 'ls -l'
 }
