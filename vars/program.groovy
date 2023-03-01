@@ -1,4 +1,5 @@
 def call() {
  sh 'cd /tmp/library'
- pwd
+ javac Welcome.java
+ java Welcome
 }
