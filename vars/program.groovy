@@ -1,5 +1,5 @@
 def call() {
- sh 'cd /home/nithin/Desktop/library'
+ sh 'cd /tmp/library'
  sh 'javac Welcome.java'
  sh 'java Welcome'
 }
