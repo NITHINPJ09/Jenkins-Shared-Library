@@ -1,3 +1,4 @@
 def call() {
- echo "Running Java Program"
+ sh 'javac Welcome.java'
+ sh 'java Welcome'
 }
