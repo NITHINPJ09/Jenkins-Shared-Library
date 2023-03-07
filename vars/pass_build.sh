@@ -1,4 +1,6 @@
 def call(Map config = [:]) {
-    loadLinuxScript(name: 'hello-world.sh')
-    sh "./oddOrEven.sh ${config.name} ${config.dayOfWeek}"
+    def scriptcontents = libraryResource "com/planetpope/scripts/linux/oddOrEven.sh"    
+    writeFile file: "${config.name}", text: scriptcontents 
+    sh "chmod a+x ./${config.name}"
+    sh "${config.name} ${config.number}"
 }
