@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ `expr $1 % 2` == 0 ]
+if [ 'expr $1 % 2' == 0 ]
 then
 	echo "$1 is even"
 else
