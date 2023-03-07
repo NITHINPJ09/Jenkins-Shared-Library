@@ -1,6 +1,6 @@
 
 
 def call() {
-  def myUtils = new org.foo.note()
+  def myUtils = new note()
   myUtils.welcome()
 }
