@@ -1,6 +1,6 @@
-import org.foo.note
+import org.app.display
 
 def call() {
-  def myUtils = new note()
+  def myUtils = new display()
   myUtils.welcome()
 }
