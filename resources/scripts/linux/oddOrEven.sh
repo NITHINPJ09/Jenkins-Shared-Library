@@ -1,7 +1,7 @@
 #!/bin/bash
 
 rem=$(( $1 % 2 ))
-echo "$rem"
+echo "hello from $rem"
 if [ $rem -eq 0 ]
 then
 	echo "$1 is even"
