@@ -1,4 +1,4 @@
 def call() {
-  def myUtils = new display()
+  def myUtils = new message()
   myUtils.welcome()
 }
