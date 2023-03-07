@@ -1,6 +1,7 @@
 #!/bin/bash
 
-if [ $(( $1 % 2 )) == 0 ]
+rem=$(( $1 % 2 ))
+if [ $rem == 0 ]
 then
 	echo "$1 is even"
 else
