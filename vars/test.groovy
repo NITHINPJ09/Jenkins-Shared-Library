@@ -1,8 +1,8 @@
 def call() {
-  def y = ["Guru99", "is", "Best", "for", "Groovy"]
+  def y = ["The", "best", "way", "to", "learn", "is", "to"]
   println y
-  y.add("Learning")
+  y.add("teach")
   println y.contains("is")
-  println y.get(2)
+  println y.get(1)
   println y.pop()
 }
