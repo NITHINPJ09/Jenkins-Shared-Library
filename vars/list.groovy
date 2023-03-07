@@ -1,5 +1,4 @@
-def call()
-{
+def call() {
   def y = ["Guru99", "is", "Best", "for", "Groovy"]
   println y
   y.add("Learning")
