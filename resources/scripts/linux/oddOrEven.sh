@@ -1,7 +1,6 @@
 #!/bin/bash
 
 rem=$(( $1 % 2 ))
-echo $SERVER_CREDS_USR
 if [ $rem -eq 0 ]
 then
 	echo "$1 is even"
